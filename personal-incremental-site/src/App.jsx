@@ -18,12 +18,16 @@ function App() {
     <div id="site-content">
 
       <div id="top-content">
+  
         <img class="cover-image"></img>
+        <div class="fade-to-white"></div>
+      
+    
         <h1 id="hello">Hi!</h1>
         <h1 id="name-display">I'm <span id="pink-color">Sophie Walden</span> </h1>
         <h2 id="tagline">And Developing Incremental Games has taught me Web Development</h2>
         <button class="button-56" role="button" onClick={() => handleScroll()}>See How</button>
-        <div class="fade-to-white"></div>
+        
       </div>
       
       <div id="middle-content">
